@@ -1,0 +1,14 @@
+{
+  "name": "2025-06-05",
+  "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "test": "yarn tsc && jest"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "2025-06-12",
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "jest": "^30.0.0",
+    "typescript": "^5.8.3"
+  },
+    "main": "add.ts",
+    "scripts": {
+	"test": "tsc add.ts && jest"
+    }
+}

@@ -2,7 +2,8 @@
   "name": "2025-06-05",
   "packageManager": "yarn@4.9.1",
   "scripts": {
-    "test": "yarn tsc && jest"
+    "test": "yarn tsc && jest",
+    "build": "tsc"
   },
   "dependencies": {
     "jest": "^29.7.0"

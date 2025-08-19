@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:2025-08-19}",
+            "name": "Debug hello",
+            "program": "${workspaceFolder:2025-08-19}/.build/debug/hello",
+            "preLaunchTask": "swift: Build Debug hello"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:2025-08-19}",
+            "name": "Release hello",
+            "program": "${workspaceFolder:2025-08-19}/.build/release/hello",
+            "preLaunchTask": "swift: Build Release hello"
+        }
+    ]
+}
